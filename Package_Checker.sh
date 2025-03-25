@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # SPDX-License-Identifier: GPL-2.0-or-later
-# Copyright (C) 2025-present Diegro
+# Copyright (C) 2025-present DiegroSAN
 
 SCRIPT_DIR="$(dirname "$0")"
 LIBRETRO_CORES_DIR="$SCRIPT_DIR/packages/sx05re/libretro"
