@@ -30,8 +30,13 @@ Inside listupdate.txt is the command with the outdated packages for you to run, 
 
 Script based on package_bump.sh template
 
+# NOTE:
+Package_Checker.sh must be in the root next to the package folder
 
-
+When updating with package_bump.sh the PKG_SHA256 cannot be empty, otherwise there will be an error.
+#
+#
+#
 # Verificador de Pacotes Desatualizados
 Verificador de Pacotes Desatualizados
 Este script verifica e lista pacotes desatualizados em um diretório de cores libretro, comparando a versão atual com a última versão disponível no repositório Git correspondente.
@@ -63,8 +68,21 @@ Dentro do listupdate.txt esta o comando ja com o pacotes desatualizados para voc
 
 Script baseado no modelo package_bump.sh
 
+# OBS: 
+Package_Checker.sh preciso esta na raiz ao lado da pasta package
+
+Quando for atualiza com package_bump.sh o PKG_SHA256 não pode estar vazio, então haverá error.
+
 # Author
 DiegroSan
 
+
+#
+#
+##
+#
+##
+#
+#
 
 
